@@ -1,0 +1,40 @@
+{
+  "name": "twitch-music",
+  "version": "0.1.0",
+  "description": "Realtime music player and request system for twitch streams. Listen to music together with anyone streaming at the same time and take requests from users.",
+  "keywords": [
+    "twitch",
+    "music",
+    "youtube",
+    "spotify"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "gulp test"
+  },
+  "engines": {
+    "node": ">=4.4.0"
+  },
+  "author": "bdickason",
+  "contributors": [
+    {
+      "name": "bdickason",
+      "email": "dickason@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bdickason/twitch-music.git"
+  },
+  "dependencies": {
+    "express": "4.15.2",
+    "extend": "3.0.0"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*",
+  }
+}
