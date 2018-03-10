@@ -122,7 +122,7 @@ var addList = function(listId, callback) {
 		if(listId) {
 			// Grab list details from youtube
 			youtube.playlistItems.list({
-				maxResults: 25,
+				maxResults: 50,
 				auth: options.youtubeKey,
 				playlistId: listId,
 				part: 'snippet, contentDetails'
